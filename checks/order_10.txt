@@ -1,0 +1,6 @@
+Order N10
+                                                       item_name  price  quantity
+                                                 Bayonetta [PS3]  698.0         1
+Dark Souls: Prepare to Die Edition [Xbox 360, английская версия] 1799.0         1
+                          Skylanders. Интерактивная фигурка Camo  549.0         1
+           Far Cry 3. Коллекционное издание [PC, русская версия]  849.5         1

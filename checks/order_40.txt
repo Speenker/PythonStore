@@ -1,0 +1,4 @@
+Order N40
+                                                                                           item_name  price  quantity
+                                      PS2: Карта памяти 8 Мб черная (Memory Card 8Mb - 102304: SCEE)  148.0         2
+PS3: Контроллер игровой беспроводной белый (Dualshock Wireless Controller White: CECH-ZC2E/LW: SCEE) 2390.0         1

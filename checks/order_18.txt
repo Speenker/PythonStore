@@ -1,0 +1,12 @@
+Order N18
+                                               item_name  price  quantity
+                METALLICA  Quebec Magnetic  2DVD (фирм.) 1649.0         1
+                                      METALLICA S&M 2DVD  449.0         1
+                      LAURIE HUGH  Let Them Talk  CD+DVD  349.0         1
+               MODERN TALKING The Final Album DVD (Кир.)  349.0         1
+                     MORRICONE, ENNIO Arena Concerto DVD  349.0         1
+БИБЛИОТЕКА ВСЕМИРНОЙ ЛИТЕРАТУРЫ (коллекц.) том 1 (11dvd) 1349.0         1
+            МЕЛАДЗЕ ВАЛЕРИЙ  15  Все клипы  DVD (регион)  149.0         1
+                                   КРАСНЫЕ ОГНИ (DVD+BD)  399.0         1
+                ЛЕПС ГРИГОРИЙ  Научись летать  Live  DVD  349.0         1
+            Английский в дороге  3CD (mp3-DVD) (DVD-Box)  649.0         1

@@ -1,0 +1,17 @@
+Order N53
+                                                                                           item_name  price  quantity
+                                      PS2: Карта памяти 8 Мб черная (Memory Card 8Mb - 102304: SCEE)  148.0         1
+                                     Pelican. Геймпад Nerf Wireless Controller PS2 (assorted colors)  283.0         1
+PS3: Контроллер игровой беспроводной белый (Dualshock Wireless Controller White: CECH-ZC2E/LW: SCEE) 2390.0         1
+          PS3: Контроллер игровой беспроводной красный (Dualshock Wireless Controller Red Blistered) 2390.0         1
+PS3: Контроллер игровой беспроводной серебристый (Dualshock Wireless Controller Silver: CECH-ZC2E/SS 2390.0         1
+                                                    PS4: Камера (PlayStation Camera: CUH-ZEY1: SCEE) 2599.0         1
+     PS4: Контроллер игровой беспроводной черный (Dualshock 4 Cont Anthracite Black: CUH-ZCT1: SCEE) 2590.0         1
+                                                      XBOX360WIRELESSSPEEDWHEEL XBOX 360 (2ZJ-00003) 2490.0         1
+                X360: Геймпад беспроводной черный - Wireless Controller BLACK (NSF-00002: Microsoft)  995.0         1
+                                                Аксессуар: Xbox One Беспроводной геймпад (S2V-00018) 2799.0         1
+                                      XOne: Пульт дистанционного управления для Xbox One [6DV-00006] 1099.0         1
+                                    Dark Souls: Prepare to Die Edition [Xbox 360, английская версия] 1799.0         1
+                                           Call Of Duty: Modern Warfare 3 [Xbox 360, русская версия] 2199.0         1
+                                               Far Cry 3. Коллекционное издание [PC, русская версия] 1699.0         1
+                     Skylanders. Стартовый набор: игровой портал, игра, фигурки [PC, русская версия] 1999.0         1

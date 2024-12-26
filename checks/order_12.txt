@@ -1,0 +1,7 @@
+Order N12
+                                                                                           item_name       price  quantity
+                                      PS2: Карта памяти 8 Мб черная (Memory Card 8Mb - 102304: SCEE)  148.000000         1
+                        PS4/PS3: Гарнитура Tritton Kunai стерео проводная черная (TRI881040002/02/1) 2490.000000         1
+PS Vita 1000: Комплект Hori Elite (футляр защитный, чехол, наушники, защитная пленка, ремешок, салфе 1099.000000         1
+                                             Sony PlayStation 4 (500 Gb) Black (CUH-1008A/1108A/B01)  448.298632         1
+                                            Disney / Pixar Вверх! (Essentials) [PSP, русская версия]  599.000000         1

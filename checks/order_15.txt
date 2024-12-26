@@ -1,0 +1,6 @@
+Order N15
+                                                                           item_name  price  quantity
+                                                                     Bayonetta [PS3]  698.0         1
+                      PS2: Карта памяти 8 Мб черная (Memory Card 8Mb - 102304: SCEE)  148.0         1
+                                   Кабель универсальный HDMI Artplays 2 м (ver. 1.4)  499.0         1
+Black Horns PSP Slim Набор «КРИСТАЛЛ» 3 в 1 (пл.корп., ремешок, USB) (BH-PSP02607(R)  399.0         1

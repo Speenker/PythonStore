@@ -1,0 +1,57 @@
+? импорт цсв в бд
+
+🫸сделать скрипт для заполнения из цсв для всех изменяющихся таблиц
+
+🫸изменение стока
+
+
+
+ONCE
+docker cp database/items_recommend.csv db_py:\tmp
+docker cp database/recommend_items_by_category.csv db_py:\tmp
+docker cp database/items.csv db_py:\tmp
+docker cp database/item_categories.csv db_py:\tmp
+docker cp database/shops.csv db_py:\tmp
+docker cp database/sales_train.csv db_py:\tmp
+docker cp ml/month_revenue.csv db_py:\tmp
+
+
+EVERYTIME
+docker exec -it db_py bash
+
+psql -d postgres -U postgres -h localhost -c "\copy categories FROM '/tmp/item_categories.csv' DELIMITER ',' CSV HEADER;"
+psql -d postgres -U postgres -h localhost -c "\copy products FROM '/tmp/items.csv' DELIMITER ',' CSV HEADER;"
+psql -d postgres -U postgres -h localhost -c "\copy recommend_items FROM '/tmp/items_recommend.csv' DELIMITER ',' CSV HEADER;"
+psql -d postgres -U postgres -h localhost -c "\copy recommend_items_by_category FROM '/tmp/recommend_items_by_category.csv' DELIMITER ',' CSV HEADER;"
+psql -d postgres -U postgres -h localhost -c "\copy manufacturers FROM '/tmp/shops.csv' DELIMITER ',' CSV HEADER;"
+psql -d postgres -U postgres -h localhost -c "\copy sales FROM '/tmp/sales_train.csv' DELIMITER ',' CSV HEADER;"
+psql -d postgres -U postgres -h localhost -c "\copy month_revenue FROM '/tmp/month_revenue.csv' DELIMITER ',' CSV HEADER;"
+
+psql -d postgres -U postgres
+
+ALTER TABLE products ADD COLUMN price FLOAT;
+UPDATE products
+SET price = s.item_price / s.item_cnt_day
+FROM sales s
+WHERE products.item_id = s.item_id;
+
+
+
+
+
+
+docker cp database/items_recommend.csv db_py:\tmp
+docker cp database/recommend_items_by_category.csv db_py:\tmp
+
+psql -d postgres -U postgres
+
+psql -d postgres -U postgres -h localhost -c "\copy recommend_items FROM '/tmp/items_recommend.csv' DELIMITER ',' CSV HEADER;"
+psql -d postgres -U postgres -h localhost -c "\copy recommend_items_by_category FROM '/tmp/recommend_items_by_category.csv' DELIMITER ',' CSV HEADER;"
+
+
+UPDATE sales
+SET date = TO_CHAR(TO_DATE(date, 'DD.MM.YYYY'), 'DD-MM-YYYY');
+ALTER TABLE sales
+ALTER COLUMN date TYPE DATE USING TO_DATE(date, 'DD.MM.YYYY');
+
+

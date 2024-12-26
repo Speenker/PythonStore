@@ -1,0 +1,4 @@
+Order N49
+                                                     item_name  price  quantity
+PS2: Карта памяти 8 Мб черная (Memory Card 8Mb - 102304: SCEE)  148.0         2
+                        Skylanders. Интерактивная фигурка Camo  549.0         1

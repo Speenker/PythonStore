@@ -1,0 +1,4 @@
+Order N48
+                                                                   item_name  price  quantity
+              PS2: Карта памяти 8 Мб черная (Memory Card 8Mb - 102304: SCEE)  148.0         2
+PS4/PS3: Гарнитура Tritton Kunai стерео проводная черная (TRI881040002/02/1) 2490.0         1
